@@ -54,7 +54,7 @@ mod tests {
 
     // #[test]
     // fn test_fib_rec() {
-    //     // El término en la posición 6 de Fibonacci (0, 1, 1, 2, 3, 5, 8) es el 8
+    //     // The Fibonacci term at position 6 (0, 1, 1, 2, 3, 5, 8) is 8
     //     assert_eq!(fibonacci_recursive(6), 8);
     // }
 }

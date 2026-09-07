@@ -21,7 +21,7 @@ mod tests {
 
     #[test]
     fn test_factorial() {
-        assert_eq!(factorial(0), 1);         // Caso especial
+        assert_eq!(factorial(0), 1);         // Special case
         assert_eq!(factorial(1), 1);
         assert_eq!(factorial(5), 120);       // 5 * 4 * 3 * 2 * 1
         assert_eq!(factorial(10), 3_628_800);
