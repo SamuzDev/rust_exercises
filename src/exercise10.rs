@@ -6,8 +6,9 @@ pub struct Student {
 }
 
 pub fn student_with_highest_grade(students: &[Student]) -> Option<String> {
-    // TODO: Your code here
-    todo!()
+    students.iter()
+        .max_by(|a, b| a.grade.partial_cmp(&b.grade).unwrap_or(std::cmp::Ordering::Equal))
+        .map(|student| student.id.clone())
 }
 
 #[cfg(test)]
