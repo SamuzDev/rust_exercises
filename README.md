@@ -6,7 +6,7 @@ A collection of Rust programming exercises covering fundamental concepts, data s
 
 Single crate with exercises as modules in `src/`:
 
-```
+```text
 rust_exercises/
 ├── Cargo.toml
 ├── src/
@@ -65,7 +65,7 @@ fn main() {
 ## Exercises
 
 | # | Module | Function | Description | Status |
-|---|--------|----------|-------------|--------|
+| --- | -------- | ---------- | ------------- | -------- |
 | 1 | `exercise01` | `get_odds(n)` | Odd numbers from 1 to n | [x] |
 | 2 | `exercise02` | `sum_even_numbers_to_100()` | Sum of evens 2..100 | [x] |
 | 3 | `exercise03` | `calculate_average(slice)` | Average of f64 slice | [x] |
