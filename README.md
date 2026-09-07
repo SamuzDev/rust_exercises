@@ -24,7 +24,9 @@ rust_exercises/
 │   ├── exercise11.rs       # Input validation (< 5)
 │   ├── exercise12.rs       # Fibonacci sequence
 │   ├── exercise13.rs       # Invoice with VAT & discount
-│   └── exercise14.rs       # Five summation variants
+│   ├── exercise14.rs       # Five summation variants
+│   ├── exercise15.rs       # Factorial calculation
+│   └── exercise16.rs       # Asterisk pyramid
 ```
 
 ## Usage
@@ -72,9 +74,11 @@ fn main() {
 | 6 | `exercise6` | `count_positives(slice)` | Count positive numbers | ✅ |
 | 7 | `exercise7` | `calculate_odd_and_even_sums(slice)` | Tuple (odd_sum, even_sum) | ✅ |
 | 8 | `exercise8` | `find_max_positive(slice)` | Max of positives (0 if empty) | ✅ |
-| 9 | `exercise9` | `find_max_general(slice)` | Max with negatives (`Option<i32>`) | ❌ |
-| 10 | `exercise10` | `student_with_highest_grade(slice)` | Student ID with highest grade | ❌ |
-| 11 | `exercise11` | `validate_input_less_than_five(slice)` | First input < 5 | ❌ |
-| 12 | `exercise12` | `generate_fibonacci(limit)` | Fibonacci up to limit | ❌ |
-| 13 | `exercise13` | `calculate_invoice(price, qty)` | Price*qty + 16% VAT, 5% disc if >120k | ❌ |
-| 14 | `exercise14` | `summation_a..e(n)` | Five summation series | ❌ |
+| 9 | `exercise9` | `find_max_general(slice)` | Max with negatives (`Option<i32>`) | ✅ |
+| 10 | `exercise10` | `student_with_highest_grade(slice)` | Student ID with highest grade | ✅ |
+| 11 | `exercise11` | `validate_input_less_than_five(slice)` | First input < 5 (`Option<i32>`) | ✅ |
+| 12 | `exercise12` | `generate_fibonacci(limit)` | Fibonacci up to limit | ✅ |
+| 13 | `exercise13` | `calculate_invoice(price, qty)` | Price*qty + 16% VAT, 5% disc if >120k | ✅ |
+| 14 | `exercise14` | `summation_a..e(n)` | Five summation series | ✅ |
+| 15 | `exercise15` | `factorial(n)` | Factorial (recursive) | ✅ |
+| 16 | `exercise16` | `build_pyramid(n)` | Centered asterisk pyramid | ❌ |
